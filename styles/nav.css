@@ -1,0 +1,79 @@
+.navbar {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-inline: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: none;
+}
+.active {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    right: 1.125rem;
+    left: 1.125rem;
+    justify-content: center;
+    margin-inline: auto;
+    top: 6rem;
+}
+.bg-white-corner {
+    display: block;
+    height: 2.5rem;
+    width: 3rem;
+    background-color: white;
+    right: 0;
+    top: -2rem;
+    border-top-left-radius: 10rem;
+    position: absolute;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 4rem 0;
+    margin: 0;
+    text-align: center;
+    gap: 1.5rem;
+}
+nav .nav-btn {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4rem;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+}
+.nav-icon ion-icon {
+    font-size: 2rem;
+    color: white;
+}
+.img-arrow {
+    margin-inline: auto;
+}
+.header-bg {
+    position: relative;
+    z-index: -1;
+    top: -4rem;
+}
+.header-bg > *:not(picture) {
+    position: absolute;
+}
+.title {
+    top: 10rem;
+    display: grid;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 5px;
+    align-items: center;
+    gap: 2rem;
+}
